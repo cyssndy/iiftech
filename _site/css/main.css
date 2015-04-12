@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #393939; }
+
+a {
+  text-decoration: none; }
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.siteHeader {
+  border-top: 7px solid #111111; }
+
+.header1 {
+  float: left; }
+
+.headerTitle {
+  width: 250px;
+  text-align: center; }
+  .headerTitle .siteTitle {
+    font-size: 120px;
+    padding: 15px;
+    color: #EFEFEF;
+    font-family: "Comic Sans MS", cursive, sans-serif; }
+
+.headerNav {
+  width: 750px;
+  background-color: #616161;
+  text-align: center;
+  border-radius: 5px 20px; }
+  .headerNav a:link {
+    color: #FFFFFF; }
+  .headerNav a:visited {
+    color: #FFFFFF; }
+  .headerNav a:hover {
+    color: #FFFFFF; }
+  .headerNav a:active {
+    color: #FFFFFF; }
+  .headerNav .headerNavBlock {
+    float: right; }
+    .headerNav .headerNavBlock .navBtn {
+      float: left;
+      font-size: 20px;
+      padding: 15px; }
+      .headerNav .headerNavBlock .navBtn:last-child {
+        margin-right: 30px; }
+    .headerNav .headerNavBlock .activeBtn {
+      float: left;
+      font-size: 20px;
+      padding: 15px;
+      background-color: #CACACA; }
+      .headerNav .headerNavBlock .activeBtn:last-child {
+        margin-right: 30px; }
+
+.headerNav a:link {
+  color: #FFFFFF; }
+.headerNav a:visited {
+  color: #FFFFFF; }
+.headerNav a:hover {
+  color: #FFFFFF; }
+.headerNav a:active {
+  color: #FFFFFF; }
+
+.siteFooter {
+  border-top: 1.5px solid #303030; }
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.siteHeader {
+  border-top: 7px solid #111111; }
+
+.header1 {
+  float: left; }
+
+.headerTitle {
+  width: 250px;
+  text-align: center; }
+  .headerTitle .siteTitle {
+    font-size: 120px;
+    padding: 15px;
+    color: #EFEFEF;
+    font-family: "Comic Sans MS", cursive, sans-serif; }
+
+.headerNav {
+  width: 750px;
+  background-color: #616161;
+  text-align: center; }
+  .headerNav .headerNavBlock {
+    float: right; }
+    .headerNav .headerNavBlock .navBtn {
+      float: left;
+      font-size: 20px;
+      padding: 15px; }
+      .headerNav .headerNavBlock .navBtn:last-child {
+        margin-right: 30px; }
+    .headerNav .headerNavBlock .activeBtn {
+      float: left;
+      font-size: 20px;
+      padding: 15px;
+      background-color: #CACACA; }
+      .headerNav .headerNavBlock .activeBtn:last-child {
+        margin-right: 30px; }

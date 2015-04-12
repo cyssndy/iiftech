@@ -1,0 +1,41 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$baseFontFamily: Helvetica, Arial, sans-serif;
+$headerBtnColor: #FFFFFF;
+$navBtnFontSize: 20px;
+$siteTitleSize: 120px;
+$navBtnLeftMargin: 30px;
+$navPadding: 15px;
+$headerNavBackgroundColor: #616161;
+
+$wrapperWidth: 1000px;
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "headerCSS",
+        "footerCSS"
+;
