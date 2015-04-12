@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Our Developer
-permalink: /developer/
+permalink: developer/
 IsDeveloper: true
 ---

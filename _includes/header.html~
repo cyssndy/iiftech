@@ -11,7 +11,6 @@
 					<a {% if page.IsDeveloper %} class = "activeBtn" {% else %} class = "navBtn" {% endif %} href = {{site.baseurl}}/developer/>Our Developer</a>
 					<a {% if page.IsContact %} class = "activeBtn" {% else %} class = "navBtn" {% endif %} href = {{site.baseurl}}/contact/>Contact Us </a>
 				</div>
-				dsafdsafds
 			</div>
 	</div>
 	

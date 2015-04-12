@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About iif
-permalink: /about/
+permalink: about/
 IsAbout: true
 ---
 

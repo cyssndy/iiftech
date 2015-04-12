@@ -2,5 +2,5 @@
 layout: page
 title: Our Developer
 permalink: /developer/
-IsPage: true
+IsDeveloper: true
 ---
