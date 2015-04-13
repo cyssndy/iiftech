@@ -10,7 +10,7 @@ $(document).ready(function(){
 			} 
 		},
 		function(){
-			$(this).animate({backgroundColor: "#616161"}, 100);
+			$(this).animate({background: "transparent"}, 100);
 		}
 	);
 });
