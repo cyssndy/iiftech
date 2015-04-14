@@ -1,0 +1,48 @@
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.siteHeader {
+  border-top: 7px solid #111111; }
+
+.header1 {
+  float: left; }
+
+.headerTitle {
+  width: 100;
+  text-align: center; }
+  .headerTitle .siteTitle {
+    font-size: 40px;
+    padding: 15px;
+    color: #EFEFEF;
+    font-family: "Comic Sans MS", cursive, sans-serif; }
+
+.headerNav {
+  width: 300;
+  background-color: #616161;
+  text-align: center;
+  border-radius: 5px 20px; }
+  .headerNav a:link {
+    color: #FFFFFF; }
+  .headerNav a:visited {
+    color: #FFFFFF; }
+  .headerNav a:hover {
+    color: #FFFFFF; }
+  .headerNav a:active {
+    color: #FFFFFF; }
+  .headerNav .headerNavBlock {
+    float: right; }
+    .headerNav .headerNavBlock .navBtn {
+      float: left;
+      font-size: 20px;
+      padding: 15px; }
+      .headerNav .headerNavBlock .navBtn:last-child {
+        margin-right: 30px; }
+    .headerNav .headerNavBlock .activeBtn {
+      float: left;
+      font-size: 20px;
+      padding: 15px;
+      background-color: #CACACA; }
+      .headerNav .headerNavBlock .activeBtn:last-child {
+        margin-right: 30px; }

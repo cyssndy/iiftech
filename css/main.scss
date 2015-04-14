@@ -5,7 +5,7 @@
 
 
 
-// Our variables
+
 $baseFontFamily: Helvetica, Arial, sans-serif;
 $headerBtnColor: #FFFFFF;
 $navBtnFontSize: 20px;
@@ -14,21 +14,23 @@ $navBtnLeftMargin: 30px;
 $navPadding: 15px;
 $headerNavBackgroundColor: #616161;
 
-$wrapperWidth: 1000px;
+
 
 $siteBackgroundColor: #393939;
 
 
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+$spacing-unit:     30px;
+
+
+// Width of the content area
+
+$wrapperWidth:     1000px;
+$on-palm:          400px;
+$on-laptop:        800px;
+
 
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media only screen and (max-width: $device) {
         @content;
     }
 }

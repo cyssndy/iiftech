@@ -1,0 +1,72 @@
+
+.wrapper{
+	//background-color: #FFFFFF;
+	width: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.wrapper{
+	//background-color: #FFFFFF;
+	width: $wrapperWidth;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.siteHeader{
+	border-top: 7px solid #111111;
+	//position:relative;
+	//min-height: $siteTitleSize + 24;
+}
+
+.header1{
+	float:left;
+}
+
+.headerTitle{
+	width: 400 * 0.25;
+	text-align: center;
+	.siteTitle{
+			font-size: 40px;
+			padding: $navPadding;
+
+			color: #EFEFEF;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+}
+
+.headerNav{
+
+	a:link{color: $headerBtnColor}
+	a:visited{color:$headerBtnColor}
+	a:hover{color:$headerBtnColor}
+	a:active{color:$headerBtnColor}
+	
+	width: 400 * 0.75;
+	background-color: $headerNavBackgroundColor;
+	text-align: center;
+	border-radius: 5px 20px;
+	
+	.headerNavBlock{
+		float:right;
+		.navBtn{
+			//position: relative;
+			float:left;
+			font-size: $navBtnFontSize;
+			padding:$navPadding;
+			//&:not(:first-child){margin-left: $navBtnLeftMargin};
+			&:last-child{margin-right: 30px}
+		}
+		.activeBtn{
+			float:left;
+			font-size: $navBtnFontSize;
+			padding:$navPadding;
+			//&:not(:first-child){margin-left: $navBtnLeftMargin};
+			background-color: #CACACA;
+			&:last-child{margin-right: 30px}
+		}
+	}
+
+}

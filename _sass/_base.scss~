@@ -16,9 +16,36 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body{
 	font-family: $baseFontFamily;
-	background-color: #393939;
+	background-color: $siteBackgroundColor;
 }
 
 a{
 	text-decoration: none;
 }
+
+
+.wrapper{
+
+	overflow: hidden;
+	
+	max-width: -webkit-calc(#{$wrapperWidth} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$wrapperWidth} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+
+	@include media-query($on-palm) {
+		margin-right: auto;
+    	margin-left: auto;
+    	padding-right: 1px;
+    	padding-left: 1px;
+	}
+
+	
+}
+
+
+
+
+
