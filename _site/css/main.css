@@ -16,13 +16,13 @@ a {
 
 .wrapper {
   overflow: hidden;
-  max-width: -webkit-calc(1000px - (30px * 2));
-  max-width: calc(1000px - (30px * 2));
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 800px) {
     .wrapper {
       margin-right: auto;
       margin-left: auto;
@@ -67,7 +67,7 @@ a {
       .headerNav .headerNavBlock a .activeBtn {
         background-color: #CACACA; }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
   .header1 {
     float: none; }
 
