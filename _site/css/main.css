@@ -81,8 +81,8 @@ a {
     .headerNav .headerNavBlock {
       float: none; }
       .headerNav .headerNavBlock a {
-        font-size: 14px;
-        padding: 6px; }
+        font-size: 13px;
+        padding: 4.5px; }
         .headerNav .headerNavBlock a:first-child {
           margin-left: 20px; } }
 .siteFooter {

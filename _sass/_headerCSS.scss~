@@ -65,9 +65,9 @@
 		.headerNavBlock{
 			float:none;
 			a{
-				font-size: $navBtnFontSize * 0.7;
+				font-size: $navBtnFontSize * 0.65;
 				padding:$navPadding * 0.4;
-				&:first-child{padding-left: 15px}
+				&:first-child{margin-left: 20px}
 			}
 		}
 
