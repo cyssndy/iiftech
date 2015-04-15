@@ -6,6 +6,9 @@
 			</div>
 			
 			<div class = "header1 headerNav">
+			
+				{% include menuIcon.html %}
+				
 				<div class = "headerNavBlock">
 					<a {% if page.IsAbout %} class = "activeBtn" {%else%} class = "navBtn" {% endif %} href = {{site.baseurl}}/about/>About</a>
 					<a {% if page.IsDeveloper %} class = "activeBtn" {%else%} class = "navBtn" {% endif %} href = {{site.baseurl}}/developer/>Our Developer</a>
