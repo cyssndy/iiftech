@@ -7,9 +7,9 @@
 			
 			<div class = "header1 headerNav">
 				<div class = "headerNavBlock">
-					<a {% if page.IsAbout %} class = "activeBtn" {% endif %} href = {{site.baseurl}}/about/>About</a>
-					<a {% if page.IsDeveloper %} class = "activeBtn" {% endif %} href = {{site.baseurl}}/developer/>Our Developer</a>
-					<a {% if page.IsContact %} class = "activeBtn" {% endif %} href = {{site.baseurl}}/contact/>Contact Us </a>
+					<a {% if page.IsAbout %} class = "activeBtn" {%else%} class = "navBtn" {% endif %} href = {{site.baseurl}}/about/>About</a>
+					<a {% if page.IsDeveloper %} class = "activeBtn" {%else%} class = "navBtn" {% endif %} href = {{site.baseurl}}/developer/>Our Developer</a>
+					<a {% if page.IsContact %} class = "activeBtn" {%else%} class = "navBtn" {% endif %} href = {{site.baseurl}}/contact/>Contact Us </a>
 				</div>
 			</div>
 	</div>

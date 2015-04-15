@@ -37,11 +37,10 @@
 			float:left;
 			font-size: $navBtnFontSize;
 			padding:$navPadding;
-			&:last-child{margin-right: 30px}
-		
-			.activeBtn{
-				background-color: #CACACA;
-			}
+			&:last-child{margin-right: 30px};
+		}
+		a.activeBtn{
+			background-color: #CACACA;
 		}
 	}
 
@@ -50,7 +49,7 @@
 
 @include media-query($on-palm) {
     .header1{
-		float:none;
+		float:auto;
 	}
 	
 	.headerTitle{
@@ -62,12 +61,13 @@
 	
 		width: -webkit-calc(100% - (#{$spacing-unit} / 2));
 		width: 		   calc(100% - (#{$spacing-unit} / 2));
-
+		
 		.headerNavBlock{
 			float:none;
 			a{
 				font-size: $navBtnFontSize * 0.7;
-				padding:$navPadding * 0.5;
+				padding:$navPadding * 0.4;
+				&:first-child{padding-left: 15px}
 			}
 		}
 
