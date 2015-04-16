@@ -80,6 +80,7 @@ a {
     width: calc(100% - (30px / 2)); }
     .headerNav .headerNavBlock {
       display: none;
+      position: relative;
       clear: both; }
       .headerNav .headerNavBlock a {
         text-align: right;

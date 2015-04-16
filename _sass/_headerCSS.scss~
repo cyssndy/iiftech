@@ -67,6 +67,7 @@
 		
 		.headerNavBlock{
 			display: none;
+			overflow: auto;
 			clear:both;
 			& a{
 				text-align:right;

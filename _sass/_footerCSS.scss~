@@ -1,8 +1,7 @@
 
 
 .siteFooter{
-	//position:relative;
-	//min-height: 56px;
+
 	border-top: 1.5px solid #303030;
 }
 
