@@ -3,6 +3,7 @@
 $(document).ready(function(){
 	var titleImgH = $("img.title-img").height();
 	var titleImgW = $("img.title-img").width();
+	var pageimageH = $("div.imageFrame").height();
 	
 	$(".navBtn").hover(
 		function(){
@@ -31,11 +32,12 @@ $(document).ready(function(){
 			$("img.title-img").width(titleImgW);
 		}
 		else{
+			$(div.imageFrame).height($(window).width()/960 * pageimageH );
 			$(".headerNavBlock").hide();
 			$("img.title-img").height(titleImgH * 0.8);
 			$("img.title-img").width(titleImgW * 0.8);
 			
-		}	
+		}
 	
 	});
 	
