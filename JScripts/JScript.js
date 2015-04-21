@@ -47,7 +47,7 @@ $(document).ready(function(){
 		duration: 650
 	});
 	var offsetV = $(".pageTitle").offset().top - 30;
-	$(".pageTitle").css({ top: 'offsetV'})
+	$(".pageTitle").css({ top: 'offsetV'});
 	$(".pageTitle").delay(500).animate({
 		top: '+=30px',
 		marginTop: '+=20',
