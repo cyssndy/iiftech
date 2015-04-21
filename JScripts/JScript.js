@@ -47,7 +47,7 @@ $(document).ready(function(){
 		duration: 650
 	});
 
-	$(".pageTitle").delay(500).animate({
+	$(".pageTitle").delay(300).animate({
 		marginTop: '+=20',
 		opacity: '1'},{
 		queue: true, 
