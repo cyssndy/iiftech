@@ -41,13 +41,13 @@ $(document).ready(function(){
 	
 	$(".pageTitle").animate({
 		marginTop: '+=30',
-		opacity: '1',
+		opacity: '1'},{
 		queue: false, 
 		duration: 4000
 	});
 	$(".pageImage").animate({
 		marginTop:'+=15',
-		opacity: '1',
+		opacity: '1'},{
 		queue: false,
 		duration: 2500
 	});
