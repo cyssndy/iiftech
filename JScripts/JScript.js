@@ -6,6 +6,7 @@ $(document).ready(function(){
 	
 	$(".navBtn").hover(
 		function(){
+			$(this).stop();
 			$(this).animate({backgroundColor: "#A0A0A0"}, 100);
 			
 		},
