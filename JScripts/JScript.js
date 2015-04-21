@@ -48,7 +48,7 @@ $(document).ready(function(){
 	});
 	$(".pageTitle").css({ top: '-=30'})
 	$(".pageTitle").delay(500).animate({
-		top: '+=30',
+		top: '+=30px',
 		marginTop: '+=20',
 		opacity: '1'},{
 		queue: true, 
