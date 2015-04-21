@@ -39,17 +39,16 @@ $(document).ready(function(){
 	
 	});
 	
-	$(".pageTitle")
-		// .css("top", "+= -100")
-		.animate(
-			{'marginTop': "+=30"},
-			{opacity: 1},
-			{queue: false, duration: 1200}
-		);
-	$(".pageImage")
-		.animate(
-			{'marginTop': "+=10"},
-			{opacity: 1},
-			{queue: falsem duration: 800}
-		)
+	$(".pageTitle").animate({
+		marginTop: '+=30',
+		opacity: '1',
+		queue: false, 
+		duration: '1200'
+	});
+	$(".pageImage").animate({
+		marginTop:'+=10',
+		opacity: '1',
+		queue: false,
+		duration: '800'
+	});
 });
