@@ -3,6 +3,7 @@ layout: page
 title: About iif
 permalink: about/
 IsAbout: true
+image: http://svite-league-apps-content.s3.amazonaws.com/bgimages/big-red.jpg
 ---
 
 
