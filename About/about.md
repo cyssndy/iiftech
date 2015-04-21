@@ -5,14 +5,6 @@ permalink: about/
 IsAbout: true
 ---
 
-<div class = "pageHeader">
-	<div class= "wrapper">
-		<h1 class = "pageTitle">
-			About
-		</h1>
-	</div>
-	<img class = "pageImage" />
-</div>
 
 <div class= "wrapper">
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
