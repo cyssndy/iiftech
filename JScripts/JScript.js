@@ -41,10 +41,10 @@ $(document).ready(function(){
 	
 	$(".pageTitle")
 		// .css("top", "+= -100")
-		.slideDown('slow')
 		.animate(
+			{'margintop': '+=30'},
 			{opacity: 1},
-			{queue: false, duration: 'slow'}
+			{queue: false, duration: 1200}
 		);
 
 });
