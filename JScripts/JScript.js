@@ -39,22 +39,28 @@ $(document).ready(function(){
 	
 	});
 	
+	var delayBase = 200;
 	
-	$(".pageImage").animate({
-		marginTop:'+=10',
+	$(".pageImage").delay(delayBase).animate({
 		opacity: '1'},{
 		queue: false,
 		duration: 650
 	});
 
-	$(".pageTitle").delay(300).animate({
-		marginTop: '+=50'},{
+	$(".pageImage").delay(delayBase + 150).animate({
+		marginTop:'+=10'},{
+		queue: false,
+		duration: 650
+	});
+
+	$(".pageTitle").delay(delayBase + 350).animate({
+		opacity: '1'},{
 		queue: false, 
 		duration: 1000
 	});
 	
-	$(".pageTitle").delay(300).animate({
-		opacity: '1'},{
+	$(".pageTitle").delay(delayBase + 550).animate({
+		marginTop: '+=50'},{
 		queue: false, 
 		duration: 1250
 	});
