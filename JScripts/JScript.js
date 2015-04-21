@@ -43,12 +43,12 @@ $(document).ready(function(){
 		marginTop: '+=30',
 		opacity: '1',
 		queue: false, 
-		duration: '1200'
+		duration: '2000'
 	});
 	$(".pageImage").animate({
-		marginTop:'+=10',
+		marginTop:'+=20',
 		opacity: '1',
 		queue: false,
-		duration: '800'
+		duration: '1300'
 	});
 });
