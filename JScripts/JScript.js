@@ -41,8 +41,8 @@ $(document).ready(function(){
 			$("img.title-img").width(titleImgW);
 		}
 		else{
-			$("div.imageFrame").height($(window).width()/960 * pageimageH );
-			$("div.pageHeader").height($(window).width()/960 * pageheaderH);
+			$("div.imageFrame").height($(window).width()/960 * pageimageH + 75);
+			$("div.pageHeader").height($(window).width()/960 * pageheaderH + 75);
 			$(".headerNavBlock").hide();
 			$("img.title-img").height(titleImgH * 0.8);
 			$("img.title-img").width(titleImgW * 0.8);
