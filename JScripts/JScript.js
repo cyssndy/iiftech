@@ -39,16 +39,19 @@ $(document).ready(function(){
 	
 	});
 	
-	$(".pageTitle").animate({
-		marginTop: '+=20',
-		opacity: '1'},{
-		queue: false, 
-		duration: 1500
-	});
+	
 	$(".pageImage").animate({
 		marginTop:'+=10',
 		opacity: '1'},{
 		queue: false,
+		duration: 650
+	});
+	$(".pageTitle").css({ top: '-=30'})
+	$(".pageTitle").delay(500).animate({
+		top: '+=30',
+		marginTop: '+=20',
+		opacity: '1'},{
+		queue: true, 
 		duration: 1000
 	});
 });
