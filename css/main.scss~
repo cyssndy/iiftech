@@ -6,7 +6,7 @@
 
 
 
-$baseFontFamily: Helvetica, Arial, sans-serif;
+$baseFontFamily:'Josefin Sans', sans-serif;
 $headerBtnColor: #FFFFFF;
 $navBtnFontSize: 20px;
 $siteTitleSize: 120px;

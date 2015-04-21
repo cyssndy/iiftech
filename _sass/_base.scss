@@ -12,6 +12,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 } 
 //////////////////////////////////////////
 
+div, span, h1, h2, h3, h4, h5, h6, p, pre, a {
+	color: #EFEFEF;
+}
 
 
 body{
@@ -26,8 +29,6 @@ a{
 
 .wrapper{
 
-	overflow: hidden;
-	
 	max-width: -webkit-calc(#{$wrapperWidth} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$wrapperWidth} - (#{$spacing-unit} * 2));
     margin-right: auto;

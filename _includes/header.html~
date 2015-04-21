@@ -2,12 +2,17 @@
 
 	<div class = "wrapper">
 			<div class = "header1 headerTitle">
-				<a class = "siteTitle" href = {{site.baseurl}}/>iif</a>
+				<!--<a class = "siteTitle" href = {{site.baseurl}}/>iif</a>-->
+				<img class="title-img"
+					 href="{{site.baseurl}}/"  
+					 src="{{site.baseurl}}/pic/site-logo.png" 
+					 alt="<a class = 'siteTitle' href = {{site.baseurl}}/>iif</a>"
+				/>
 			</div>
 			
 			<div class = "header1 headerNav">
 			
-				{% include menuIcon.html %} <br>
+				{% include menuIcon.html %}
 				
 				<div class = "headerNavBlock">
 					<a {% if page.IsAbout %} class = "activeBtn" {%else%} class = "navBtn" {% endif %} href = {{site.baseurl}}/about/>About</a>

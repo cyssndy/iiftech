@@ -6,13 +6,14 @@
 
 
 
-$baseFontFamily: Helvetica, Arial, sans-serif;
+$baseFontFamily:'Josefin Sans', sans-serif;
 $headerBtnColor: #FFFFFF;
 $navBtnFontSize: 20px;
 $siteTitleSize: 120px;
 $navBtnLeftMargin: 30px;
 $navPadding: 15px;
 $headerNavBackgroundColor: #616161;
+$site-header-height: 200px;
 
 
 
@@ -24,7 +25,7 @@ $spacing-unit:     30px;
 
 // Width of the content area
 
-$wrapperWidth:     1000px;
+$wrapperWidth:     960px;
 $on-palm:          700px;
 $on-laptop:        800px;
 
@@ -41,5 +42,6 @@ $on-laptop:        800px;
 @import
         "base",
         "headerCSS",
-        "footerCSS"
+        "footerCSS",
+        "pageCss"
 ;

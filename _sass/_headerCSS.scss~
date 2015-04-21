@@ -2,6 +2,7 @@
 
 .siteHeader{
 	border-top: 7px solid #111111;
+	height:200px;
 }
 
 .header1{
@@ -11,11 +12,16 @@
 .headerTitle{
 	width: -webkit-calc(25% - (#{$spacing-unit} / 2));
 	width: calc(25% - (#{$spacing-unit} / 2));
-	
+	height: 220px;
 	.siteTitle{
 		font-size: $siteTitleSize;
 		color: #EFEFEF;
-		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-family: 'Jura', sans-serif;
+	}
+	
+	img{
+		float: right;
+
 	}
 }
 
@@ -40,7 +46,7 @@
 			&:last-child{margin-right: 30px};
 		}
 		a.activeBtn{
-			background-color: #CACACA;
+			background-color: #A0A0A0;
 		}
 	}
 
@@ -52,21 +58,31 @@
 
 
 @include media-query($on-palm) {
+	.siteHeader{
+		height: 200px;
+	}
 
 	.headerTitle{
-		width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-		width: 		   calc(100% - (#{$spacing-unit} / 2));
+		//width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+		//width: 		   calc(60% - (#{$spacing-unit} / 2));
+		width: 190px;
+		height: 145px;
+		
+		img.title-img{
+			margin-top: 13px;
+		}
 	}
 
 	.headerNav{
 	
 		width: -webkit-calc(100% - (#{$spacing-unit} / 2));
 		width: 		   calc(100% - (#{$spacing-unit} / 2));
-		
+		opacity: 0.75;
+		filter:alpha(opacity=75);
 
-		
 		.headerNavBlock{
 			display: none;
+			position:relative;
 			clear:both;
 			& a{
 				text-align:right;

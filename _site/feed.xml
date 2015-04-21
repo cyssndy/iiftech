@@ -2,12 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iif Technology</title>
-    <description>Working on brilliant new ideas since now. iif Tech is a University of Waterloo start-up found by ECE student Alfred.
+    <description>Working on brilliant new ideas since now. iif Tech is a start-up found by University of Waterloo ECE student Alfred.
 </description>
+<<<<<<< HEAD
     <link>http://yourdomain.com/iiftech/</link>
     <atom:link href="http://yourdomain.com/iiftech/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Sun, 19 Apr 2015 15:01:26 -0400</pubDate>
     <lastBuildDate>Sun, 19 Apr 2015 15:01:26 -0400</lastBuildDate>
+=======
+    <link>/iiftech/</link>
+    <atom:link href="/iiftech/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Apr 2015 21:54:29 -0400</pubDate>
+    <lastBuildDate>Thu, 16 Apr 2015 21:54:29 -0400</lastBuildDate>
+>>>>>>> 718aac6af9347ba01db95a98b9023f9a19efc707
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,8 +35,8 @@
 
 </description>
         <pubDate>Sun, 12 Apr 2015 05:40:38 -0400</pubDate>
-        <link>http://yourdomain.com/iiftech/jekyll/update/2015/04/12/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/iiftech/jekyll/update/2015/04/12/welcome-to-jekyll.html</guid>
+        <link>/iiftech/jekyll/update/2015/04/12/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/iiftech/jekyll/update/2015/04/12/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

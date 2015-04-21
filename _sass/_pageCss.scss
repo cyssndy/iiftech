@@ -1,0 +1,32 @@
+.pageTitle{
+	margin-top:0px;
+	opacity: 0.15;
+	font-size: 90px;
+	position:absolute;
+	
+	@include media-query($on-palm){
+		font-size: 60px;
+	}
+}
+
+.pageHeader{
+	height: 300px;
+}
+
+.imageFrame{
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+	display:block;
+	position:absolute;
+	z-index: -1;
+}
+
+.pageImage{
+	width: 100%;
+	margin-top:0;
+	opacity: 0.25;
+	position:absolute;
+	left: 0px;
+	
+}
