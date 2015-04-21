@@ -48,9 +48,14 @@ $(document).ready(function(){
 	});
 
 	$(".pageTitle").delay(300).animate({
-		marginTop: '+=20',
-		opacity: '1'},{
-		queue: true, 
+		marginTop: '+=50'},{
+		queue: false, 
 		duration: 1000
+	});
+	
+	$(".pageTitle").delay(300).animate({
+		opacity: '1'},{
+		queue: false, 
+		duration: 1250
 	});
 });
