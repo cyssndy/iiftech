@@ -46,10 +46,8 @@ $(document).ready(function(){
 		queue: false,
 		duration: 650
 	});
-	var offsetV = $(".pageTitle").offset().top - 30;
-	$(".pageTitle").css({ top: 'offsetV'});
+
 	$(".pageTitle").delay(500).animate({
-		top: '+=30px',
 		marginTop: '+=20',
 		opacity: '1'},{
 		queue: true, 
