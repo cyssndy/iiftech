@@ -40,13 +40,13 @@ $(document).ready(function(){
 	});
 	
 	$(".pageTitle").animate({
-		marginTop: '+=30',
+		marginTop: '+=20',
 		opacity: '1'},{
 		queue: false, 
 		duration: 1500
 	});
 	$(".pageImage").animate({
-		marginTop:'+=15',
+		marginTop:'+=10',
 		opacity: '1'},{
 		queue: false,
 		duration: 1000
