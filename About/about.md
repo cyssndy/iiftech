@@ -6,9 +6,11 @@ IsAbout: true
 ---
 
 <div class = "pageHeader">
-	<h1 class = "pageTitle">
-		About
-	</h1>
+	<div class= "wrapper">
+		<h1 class = "pageTitle">
+			About
+		</h1>
+	</div>
 	<img class = "pageImage" />
 </div>
 
