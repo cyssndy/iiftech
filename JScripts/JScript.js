@@ -38,5 +38,13 @@ $(document).ready(function(){
 		}	
 	
 	});
+	
+	$(".pageTitle")
+		// .css("top", "+= -100")
+		.slideDown('slow')
+		.animate(
+			{opacity: 1},
+			{queue: false, duration: 'slow'}
+		);
 
 });
