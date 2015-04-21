@@ -42,9 +42,14 @@ $(document).ready(function(){
 	$(".pageTitle")
 		// .css("top", "+= -100")
 		.animate(
-			{'margintop': '+=30'},
+			{'marginTop': "+=30"},
 			{opacity: 1},
 			{queue: false, duration: 1200}
 		);
-
+	$(".pageImage")
+		.animate(
+			{'marginTop': "+=10"},
+			{opacity: 1},
+			{queue: falsem duration: 800}
+		)
 });
