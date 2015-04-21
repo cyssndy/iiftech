@@ -3,7 +3,7 @@ layout: page
 title: About iif
 permalink: about/
 IsAbout: true
-image: "http://svite-league-apps-content.s3.amazonaws.com/bgimages/big-red.jpg"
+image: "http://hdwallpaper.freehdw.com/0005/3d-abstract_hdwallpaper_big-dark-clouds_40754.jpg"
 ---
 
 
