@@ -9,9 +9,13 @@
 		
 		<div class = "pageHeader">
 			<div class= "wrapper">
-				<h1 class = "pageTitle">
-					{% if page.title %}{{page.title}}{% else %}{{site.title}}{%endif%}
-				</h1>
+				<div class = "pageTitle">
+					{% if page.title %}
+						{{page.title}}
+					{% else %}
+						<div id="ii">iif</div><div>Technology</div>
+					{%endif%}
+				</div>
 			</div>
 			<div class = "imageFrame">
 				<img class = "pageImage" src= {{page.image}} />

@@ -118,14 +118,19 @@ a {
   border-top: 1.5px solid #303030; }
 
 .pageTitle {
-  margin-top: 0px;
+  margin-top: 10px;
   opacity: 0.15;
   font-size: 90px;
   position: absolute;
-  text-shadow: 2px 2px 3px #000000; }
+  text-shadow: 2.5px 2.5px 5px #000000; }
+  .pageTitle #ii {
+    font-size: 120px; }
   @media only screen and (max-width: 700px) {
     .pageTitle {
-      font-size: 60px; } }
+      font-size: 60px;
+      text-shadow: 1.5px 1.5px 4px #000000; }
+      .pageTitle #ii {
+        font-size: 90px; } }
 
 .pageHeader {
   height: 300px; }

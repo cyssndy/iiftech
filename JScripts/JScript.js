@@ -63,29 +63,50 @@ $(document).ready(function(){
 	
 	});
 	
-	var delayBase = 200;
-	
-	$(".pageImage").delay(delayBase).animate({
-		opacity: '1'},{
-		queue: false,
-		duration: 650
-	});
-
-	$(".pageImage").delay(delayBase + 150).animate({
-		marginTop:'+=10'},{
-		queue: false,
-		duration: 650
-	});
-
-	$(".pageTitle").delay(delayBase + 350).animate({
-		opacity: '1'},{
-		queue: false, 
-		duration: 1000
-	});
-	
-	$(".pageTitle").delay(delayBase + 550).animate({
-		marginTop: '+=50'},{
-		queue: false, 
-		duration: 1250
-	});
+	if ($(window).width() > 700){
+		var delayBase = 200;
+		$(".pageImage").delay(delayBase).animate({
+			opacity: '1'},{
+			queue: false,
+			duration: 650
+		});
+		$(".pageImage").delay(delayBase + 150).animate({
+			marginTop:'+=10'},{
+			queue: false,
+			duration: 650
+		});
+		$(".pageTitle").delay(delayBase + 350).animate({
+			opacity: '1'},{
+			queue: false, 
+			duration: 1000
+		});
+		$(".pageTitle").delay(delayBase + 550).animate({
+			marginTop: '+=60'},{
+			queue: false, 
+			duration: 1250
+		});
+	}
+	else{
+		var delayBase = 130;
+		$(".pageImage").delay(delayBase).animate({
+			opacity: '1'},{
+			queue: false,
+			duration: 350
+		});
+		$(".pageImage").delay(delayBase + 100).animate({
+			marginTop:'+=10'},{
+			queue: false,
+			duration: 350
+		});
+		$(".pageTitle").delay(delayBase + 250).animate({
+			opacity: '1'},{
+			queue: false, 
+			duration: 650
+		});
+		$(".pageTitle").delay(delayBase + 300).animate({
+			marginTop: '+=20'},{
+			queue: false, 
+			duration: 650
+		});
+	}
 });
