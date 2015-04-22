@@ -4,17 +4,10 @@
     <title>iif Technology</title>
     <description>Working on brilliant new ideas since now. iif Tech is a start-up found by University of Waterloo ECE student Alfred.
 </description>
-<<<<<<< HEAD
-    <link>http://yourdomain.com/iiftech/</link>
-    <atom:link href="http://yourdomain.com/iiftech/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Apr 2015 15:01:26 -0400</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2015 15:01:26 -0400</lastBuildDate>
-=======
     <link>/iiftech/</link>
     <atom:link href="/iiftech/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Apr 2015 21:54:29 -0400</pubDate>
-    <lastBuildDate>Thu, 16 Apr 2015 21:54:29 -0400</lastBuildDate>
->>>>>>> 718aac6af9347ba01db95a98b9023f9a19efc707
+    <pubDate>Tue, 21 Apr 2015 20:28:31 -0400</pubDate>
+    <lastBuildDate>Tue, 21 Apr 2015 20:28:31 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>

@@ -7,6 +7,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
   background: transparent; }
 
+div, span, h1, h2, h3, h4, h5, h6, p, pre, a {
+  color: #EFEFEF; }
+
 body {
   font-family: "Josefin Sans", sans-serif;
   background-color: #393939; }
@@ -15,8 +18,8 @@ a {
   text-decoration: none; }
 
 .wrapper {
-  max-width: -webkit-calc(1000px - (30px * 2));
-  max-width: calc(1000px - (30px * 2));
+  max-width: -webkit-calc(960px - (30px * 2));
+  max-width: calc(960px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
@@ -38,7 +41,7 @@ a {
 .headerTitle {
   width: -webkit-calc(25% - (30px / 2));
   width: calc(25% - (30px / 2));
-  height: 220px; }
+  height: 200px; }
   .headerTitle .siteTitle {
     font-size: 120px;
     color: #EFEFEF;
@@ -113,3 +116,31 @@ a {
           fill: #E6E6E6; } }
 .siteFooter {
   border-top: 1.5px solid #303030; }
+
+.pageTitle {
+  margin-top: 0px;
+  opacity: 0.15;
+  font-size: 90px;
+  position: absolute;
+  text-shadow: 2px 2px 2px #000000; }
+  @media only screen and (max-width: 700px) {
+    .pageTitle {
+      font-size: 60px; } }
+
+.pageHeader {
+  height: 300px; }
+
+.imageFrame {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  z-index: -1; }
+
+.pageImage {
+  width: 100%;
+  margin-top: 0;
+  opacity: 0.25;
+  position: absolute;
+  left: 0px; }

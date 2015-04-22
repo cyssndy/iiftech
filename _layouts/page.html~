@@ -1,5 +1,16 @@
 ---
-layout:default
+layout: default
 ---
 
+<div class = "pageHeader">
+	<div class= "wrapper">
+		<h1 class = "pageTitle">
+			{{page.title}}
+		</h1>
+	</div>
+	<div class = "imageFrame">
+		<img class = "pageImage" src= {{page.image}} />
+	</div>
+</div>
 
+{{content}}
