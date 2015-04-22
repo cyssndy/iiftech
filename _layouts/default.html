@@ -7,23 +7,9 @@
 	<body>
 		{% include header.html %}
 		
-		<div class = "pageHeader">
-			<div class= "wrapper">
-				<div class = "pageTitle">
-					{% if page.title %}
-						{{page.title}}
-					{% else %}
-						<div id="ii">iif</div><div>Technology</div>
-					{%endif%}
-				</div>
-			</div>
-			<div class = "imageFrame">
-				<img class = "pageImage" src= {{page.image}} />
-			</div>
-		</div>
+		{% include pageHeader.html %}
 		
-			{{content}}
-		
+		{{content}}
 		
 		{% include footer.html %}
 	</body>

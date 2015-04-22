@@ -12,7 +12,45 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 } 
 //////////////////////////////////////////
 
+div, span, h1, h2, h3, h4, h5, h6, p, pre, a {
+	font-weight:normal;
+	font-family:$baseFontFamily;
+	color: #EFEFEF;
+}
 
+h1{
+	font-size: 50px;
+	padding-top: 25px;
+	@include media-query($on-palm) {
+		font-size:38px;
+		padding-top:15px;
+	}
+}
+h2{
+	font-size: 40px;
+	@include media-query($on-palm) {font-size:32px}
+}
+h3{
+	font-size: 33px;
+	@include media-query($on-palm) {font-size:25px}
+}
+h4{
+	font-size: 27px;
+	@include media-query($on-palm) {font-size:22px}
+}
+h5{
+	font-size: 22px;
+	@include media-query($on-palm) {font-size:20px}
+}
+h6{
+	font-size: 20px;
+	@include media-query($on-palm) {font-size:18px}
+}
+p{
+	font-size: 19px;
+	line-height: 25px;
+
+}
 
 body{
 	font-family: $baseFontFamily;
@@ -26,8 +64,6 @@ a{
 
 .wrapper{
 
-	overflow: hidden;
-	
 	max-width: -webkit-calc(#{$wrapperWidth} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$wrapperWidth} - (#{$spacing-unit} * 2));
     margin-right: auto;

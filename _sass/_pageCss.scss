@@ -1,12 +1,11 @@
+
+
 .pageTitle{
 	margin-top:10px;
 	opacity: 0.15;
 	font-size: 90px;
 	position: absolute;
 	text-shadow: 2.5px 2.5px 5px #000000;
-	#ii{
-		font-size: 120px;
-	}
 	
 	@include media-query($on-palm){
 		#ii{
@@ -21,6 +20,7 @@
 
 .pageHeader{
 	height: 300px;
+
 }
 
 .imageFrame{
@@ -40,3 +40,6 @@
 	left: 0px;
 	
 }
+
+
+

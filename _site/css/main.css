@@ -8,7 +8,51 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background: transparent; }
 
 div, span, h1, h2, h3, h4, h5, h6, p, pre, a {
+  font-weight: normal;
+  font-family: "Josefin Sans", sans-serif;
   color: #EFEFEF; }
+
+h1 {
+  font-size: 50px;
+  padding-top: 25px; }
+  @media only screen and (max-width: 700px) {
+    h1 {
+      font-size: 38px;
+      padding-top: 15px; } }
+
+h2 {
+  font-size: 40px; }
+  @media only screen and (max-width: 700px) {
+    h2 {
+      font-size: 32px; } }
+
+h3 {
+  font-size: 33px; }
+  @media only screen and (max-width: 700px) {
+    h3 {
+      font-size: 25px; } }
+
+h4 {
+  font-size: 27px; }
+  @media only screen and (max-width: 700px) {
+    h4 {
+      font-size: 22px; } }
+
+h5 {
+  font-size: 22px; }
+  @media only screen and (max-width: 700px) {
+    h5 {
+      font-size: 20px; } }
+
+h6 {
+  font-size: 20px; }
+  @media only screen and (max-width: 700px) {
+    h6 {
+      font-size: 20px; } }
+
+p {
+  font-size: 19px;
+  line-height: 25px; }
 
 body {
   font-family: "Josefin Sans", sans-serif;
@@ -123,8 +167,6 @@ a {
   font-size: 90px;
   position: absolute;
   text-shadow: 2.5px 2.5px 5px #000000; }
-  .pageTitle #ii {
-    font-size: 120px; }
   @media only screen and (max-width: 700px) {
     .pageTitle {
       font-size: 60px;

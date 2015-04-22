@@ -1,0 +1,18 @@
+<page-header>
+
+		<div class = "pageHeader">
+			<div class= "wrapper">
+				<div class = "pageTitle">
+					{% if page.title %}
+						{{page.title}}
+					{% else %}
+						<h1>Technology</h1>
+					{%endif%}
+				</div>
+			</div>
+			<div class = "imageFrame">
+				<img class = "pageImage" src= {{page.image}} />
+			</div>
+		</div>
+
+</page-header>
