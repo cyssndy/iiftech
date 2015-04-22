@@ -1,7 +1,7 @@
 
 
 .siteFooter{
-
+	margin-top: 20px;
 	border-top: 1.5px solid #303030;
 }
 
